@@ -14,4 +14,3 @@ def nyc_pigeon_organizer (pigeon_data)
   end
   new_data
 end
-          
