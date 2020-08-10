@@ -1,5 +1,5 @@
 def nyc_pigeon_organizer (pigeon_data)
-  new_data = nyc_pigeon_organizer.each_with_object ({}) do |(key, value), in_progress|
+  new_data = pigeon_data.each_with_object ({}) do |(key, value), in_progress|
     value.each do |inner_key, names|
       names.each do |element|
         if !in_progress[element]
