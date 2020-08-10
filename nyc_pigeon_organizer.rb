@@ -6,7 +6,7 @@ def nyc_pigeon_organizer (pigeon_data)
           in_progress[element] = {}
         end
         if !in_progress[element][key]
-          in_progressp[element][key] = []
+          in_progress[element][key] = []
         end
         in_progress[element][key] << inner_key.to_s
       end
